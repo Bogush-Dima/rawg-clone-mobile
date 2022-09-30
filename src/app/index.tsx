@@ -6,7 +6,7 @@ import { styles } from './styles';
 export const AppWrapper: FC = () => {
   return (
     <View style={styles.common}>
-            <CustomText value="Text" />
+      <CustomText value="Text" />
       <Text>sdfgdsfg</Text>
     </View>
   );

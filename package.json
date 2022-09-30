@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}",
-    "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx ./"
+    "lint": "tsc --noEmit && yarn run prettier:write && eslint --ext .js,.jsx,.ts,.tsx ./"
   },
   "dependencies": {
     "expo": "~46.0.13",
@@ -37,7 +37,7 @@
   },
   "husky": {
     "hooks": {
-    "pre-commit": "pretty-quick --staged && npm run lint"
+      "pre-commit": "pretty-quick --staged && yarn run lint"
     }
   },
   "private": true
