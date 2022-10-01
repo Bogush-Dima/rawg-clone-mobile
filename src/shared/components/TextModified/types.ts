@@ -1,4 +1,4 @@
-export interface ICustomTextProps {
+export interface ITextModifiedProps {
   children: string;
   style?: object;
 }
