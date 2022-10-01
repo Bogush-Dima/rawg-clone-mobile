@@ -7,6 +7,7 @@ import {
   DARK_BACKGROUND_COLOR,
   LIGHT_STATUSBAR_CONTENT_COLOR
 } from 'constants/colors';
+import { Title } from 'components/Title';
 
 export const AppWrapper: FC = () => {
   return (
@@ -15,7 +16,8 @@ export const AppWrapper: FC = () => {
         backgroundColor={DARK_BACKGROUND_COLOR}
         barStyle={LIGHT_STATUSBAR_CONTENT_COLOR}
       />
-      <Description>Text</Description>
+      <Title>Title</Title>
+      <Description>Description</Description>
       <Select />
     </View>
   );
