@@ -1,12 +1,9 @@
+import { DARK_BACKGROUND_COLOR } from './../shared/constants/colors';
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  common: {
-    width: '100%',
-    height: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'black',
-    color: 'white'
+  mainWrapper: {
+    backgroundColor: DARK_BACKGROUND_COLOR,
+    height: '100%'
   }
 });

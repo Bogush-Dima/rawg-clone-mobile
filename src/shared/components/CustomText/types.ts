@@ -1,4 +1,4 @@
 export interface ICustomTextProps {
-  value: string;
+  children: string;
   style?: object;
 }
