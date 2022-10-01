@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Text } from 'react-native';
+import { CustomText } from 'components/CustomText';
 
 export const Select: FC = () => {
-  return <Text>Select</Text>;
+  return <CustomText>Select</CustomText>;
 };
