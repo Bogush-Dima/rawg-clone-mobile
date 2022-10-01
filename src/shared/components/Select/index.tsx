@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { CustomText } from 'components/CustomText';
+import { Description } from 'components/Description';
 
 export const Select: FC = () => {
-  return <CustomText>Select</CustomText>;
+  return <Description>Select</Description>;
 };

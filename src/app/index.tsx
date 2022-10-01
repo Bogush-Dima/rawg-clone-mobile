@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import { StatusBar, View } from 'react-native';
 import { styles } from './styles';
+import { Description } from 'components/Description';
+import { Select } from 'components/Select';
 import {
   DARK_BACKGROUND_COLOR,
   LIGHT_STATUSBAR_CONTENT_COLOR
 } from 'constants/colors';
-import { CustomText } from 'components/CustomText';
-import { Select } from 'components/Select';
 
 export const AppWrapper: FC = () => {
   return (
@@ -15,7 +15,7 @@ export const AppWrapper: FC = () => {
         backgroundColor={DARK_BACKGROUND_COLOR}
         barStyle={LIGHT_STATUSBAR_CONTENT_COLOR}
       />
-      <CustomText>Text</CustomText>
+      <Description>Text</Description>
       <Select />
     </View>
   );
