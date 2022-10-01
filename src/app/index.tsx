@@ -8,6 +8,7 @@ import {
 import { Select } from 'components/Select';
 import { Title } from 'components/Title';
 import { TextModified } from 'components/TextModified';
+import { GameName } from 'components/GameName';
 
 export const AppWrapper: FC = () => {
   return (
@@ -18,6 +19,7 @@ export const AppWrapper: FC = () => {
       />
       <Title>Title</Title>
       <TextModified>Text Modified</TextModified>
+      <GameName>Game Name</GameName>
       <Select />
     </View>
   );
