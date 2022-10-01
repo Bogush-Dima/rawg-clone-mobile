@@ -8,7 +8,7 @@
       "pages/*": ["src/pages/*"],
       "assets/*": ["src/shared/assets/*"],
       "components/*": ["src/shared/components/*"],
-      "constants/*": ["src/shared/constants/*"],
+      "constants": ["src/shared/constants"],
       "commonTypes": ["src/shared/commonTypes"]
     },
     "allowJs": true,
