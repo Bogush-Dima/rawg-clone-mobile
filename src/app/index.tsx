@@ -9,6 +9,7 @@ import { Select } from 'components/Select';
 import { Title } from 'components/Title';
 import { TextModified } from 'components/TextModified';
 import { GameName } from 'components/GameName';
+import { Metascore } from 'components/Metascore';
 
 export const AppWrapper: FC = () => {
   return (
@@ -20,6 +21,7 @@ export const AppWrapper: FC = () => {
       <Title>Title</Title>
       <TextModified>Text Modified</TextModified>
       <GameName>Game Name</GameName>
+      <Metascore value={54} />
       <Select />
     </View>
   );
